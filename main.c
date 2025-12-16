@@ -7,15 +7,14 @@ int main() {
     scanf("%d", &num);
 
     if(num % 2 == 0) 
-        printf("%d is Zog\n", num);
+        printf("%d is EVEN\n", num);
     else
-        printf("%d is Fard\n", num);
-
+        printf("%d is ODD\n", num);
 
     if(num > 0)
-        printf("%d is positive\n", num);
+        printf("%d is Positive\n", num);
     else if(num < 0)
-        printf("%d is negative\n", num);
+        printf("%d is Negative\n", num);
     else
         printf("%d is ZERO\n", num);
 
